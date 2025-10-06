@@ -1,0 +1,77 @@
+{
+  "educational_resources": [
+    {
+      "name": "NPTEL",
+      "url": "https://nptel.ac.in",
+      "type": "video_lectures",
+      "topics": ["engineering", "sciences", "humanities"]
+    },
+    {
+      "name": "Khan Academy",
+      "url": "https://www.khanacademy.org",
+      "type": "educational",
+      "topics": ["math", "science", "computing"]
+    },
+    {
+      "name": "MIT OpenCourseWare",
+      "url": "https://ocw.mit.edu",
+      "type": "courses",
+      "topics": ["engineering", "science", "management"]
+    }
+  ],
+  "career_guidance": [
+    {
+      "name": "Careers360",
+      "url": "https://www.careers360.com",
+      "type": "articles",
+      "topics": ["career_paths", "exam_info", "college_reviews"]
+    },
+    {
+      "name": "Shiksha",
+      "url": "https://www.shiksha.com",
+      "type": "guides",
+      "topics": ["colleges", "courses", "careers"]
+    }
+  ],
+  "mental_health": [
+    {
+      "name": "NIMHANS Resources",
+      "type": "articles",
+      "topics": ["stress_management", "anxiety", "academic_pressure"]
+    },
+    {
+      "name": "Mental Health India",
+      "type": "resources",
+      "topics": ["student_wellness", "coping_strategies"]
+    }
+  ],
+  "exam_preparation": [
+    {
+      "name": "JEE/NEET Resources",
+      "type": "study_materials",
+      "topics": ["physics", "chemistry", "mathematics", "biology"]
+    },
+    {
+      "name": "GATE Resources",
+      "type": "preparation",
+      "topics": ["engineering_subjects", "aptitude"]
+    },
+    {
+      "name": "CAT Resources",
+      "type": "preparation",
+      "topics": ["quantitative", "verbal", "logical_reasoning"]
+    }
+  ],
+  "community_sources": [
+    {
+      "name": "Reddit Indian Academia",
+      "subreddit": "r/Indian_Academia",
+      "type": "discussions"
+    },
+    {
+      "name": "Quora Education",
+      "type": "qa",
+      "topics": ["education", "career_guidance", "exam_preparation"]
+    }
+  ]
+}

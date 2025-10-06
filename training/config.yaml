@@ -1,0 +1,42 @@
+model_name: "gpt2-medium"
+output_dir: "models/nextai"
+
+training:
+  num_epochs: 3
+  batch_size: 4
+  gradient_accumulation_steps: 8
+  learning_rate: 5e-5
+  warmup_steps: 500
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+  
+  save_steps: 1000
+  eval_steps: 500
+  logging_steps: 100
+  save_total_limit: 3
+
+data:
+  train_file: "data/processed/train.txt"
+  val_file: "data/processed/val.txt"
+  test_file: "data/processed/test.txt"
+  max_length: 512
+  block_size: 512
+
+optimization:
+  optimizer: "adamw"
+  scheduler: "cosine"
+  fp16: true
+  gradient_checkpointing: true
+
+generation:
+  max_length: 200
+  temperature: 0.7
+  top_k: 50
+  top_p: 0.9
+  repetition_penalty: 1.2
+  num_return_sequences: 1
+
+wandb:
+  project: "nextai"
+  entity: "nextbench"
+  log_model: true
